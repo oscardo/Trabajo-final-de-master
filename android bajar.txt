@@ -1,0 +1,204 @@
+https://www.coursera.org/learn/fundamentos/
+
+* Bajar la versión 4 de android
+* API  15
+* SDK Plaform (Todas las librerias)
+* Intel x86 Atom 
+* Google API's
+* Sources for Android SDK
+
+Utilizar Cammel ... 
+Company Domain: Nombre de Compañia 
+
+Target: 
+Phone and Tablet ---> API 15 (4.0 +)
+Wear
+TV
+
+Activity Name: MainActivity
+Layout: activity_main
+
+AVD: Android Virtual Developer
+
+Android Divice Monitor (DDMS)
+
+Nine Patch: *.9.png
+desde consola: Ubicación de SDK
+Draw9Patch 
+Imagenes de fondo.... recomendado
+
+Tamaños generales
+Pequeño
+Normal
+Grande - Large
+ExtraGrande XLarge
+
+Existen 4 densidades generales
+Low (ldpi) 75%
+Medium (mdpi) 100%
+High (hdpi) 150%
+ExtraHigh (xhdpi) 200%
+
+Directorio: Drawable
+mipmap: iconos
+
+photoshop
+
+androidpixels.net ::: entrar a navegar ahí
+o
+Android Drawable Importer (Plugins)
+o
+Android Drawable  Viewer (Plugins)
+
+-->Batch Drawable Import 
+
+Orientación 
+Portrait
+Landscape
+
+Lienzos --- Layout
+
+LOS LAYOUT 
+DEBE HACERSE SIEMPRE SIEMPRE SIEMPRE
+EN MINÚSCULA SIEMPRE Y CADA PALABRA 
+DEBE ESTAR CON GUION _ BAJO O DE PISO
+
+Propiedades 
+
+RelativeLayout
+	manejo de portrair and landscape
+--------------
+String 
+
+R.java ----> referencia NO se TOCA!
+
+Soporte para múltiples idiomas
+--------------------
+Dimens.xml ... tions 
+	Importante para el manejo de pantallas
+	distintas
+---------------------
+Styles.xml
+	podemos modificar
+--------------------------
+Manifest
+	AndroidManifest.xml
+
+Corazón de nuestra aplicación	
+
+-------------------------
+Gladle
+Herramienta de apoyo 
+	build.gradle
+		VersionCode 1
+		versionName "1.0"
+
+-------------------------
+Activities
+	Pantallas
+Utilizar View para crear interfaces gráficas
+
+Services (Servicios)
+Es una parte de la aplicación que se comporta
+"Invisiblemente" (background) puede ejecutarse en
+segundo plano si  necesidad de que el
+usuario interactúe con él.
+
+Content Providers
+Acceso a una base de datos (común)
+Por medio del Content Provides, otras aplicaciones pueden consultar o incluso, modificar datos
+
+Broadcast Receivers
+Llamadas
+bateria baja
+Alerta a notificaciones del S.O de Android (Linux)
+Muchos BroadCast son originados por el sistema pero, también, se pueden iniciar mediante una app
+
+Componentes: Views
+Activities
+Intents: una clase y la otra Activities y Otra
+
+Material Design
+Atractivo Visual
+Movimiento
+Diseño Interactivo
+
+Composición de Colores
+>Primary Color
+>Dark Primary Color
+>Accent Color
+
+Nuevoos Views
+App Bar
+Raised Button
+Floatig Action Button
+CardView
+RecyclerView
+Tabs y NewPager
+Refresh Indicator
+SnackBar
+
+WireFrame
+https://balsamiq.com/
+NinjaMock: https://ninjamock.com
+Justinmind: www.justinmind.co
+
+Mockups y prototipos para Android
+
+--------------------------
+
+Tema claro
+Theme.AppCompat.Light.NoActionBar
+Tema Obscuro
+Theme.AppCompat.NoActionBar
+styles.xml
+
+https://www.materialpalette.com/
+
+_________________________
+
+Activities
+	Pila
+	
+MainActivities siempre será la pantalla de inicio de nuestra aplicación
+
+https://www.coursera.org/learn/desarrollo-de-aplicaciones/lecture/w5EeH/implentando-interfaces-de-usuario
+
+
+________________________
+Implementando interfaces de usuario
+Layouts y Raised Button
+
+android:layout_width="match_parent" toda el area de la pantalla
+android:layout_width="wrap_content" solamente el contenido
+
+OBLIGATORIIO
+<TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+android:id="@+id/tvTitulo" <-- Adiciono
+
+Saber como funciona este campo???
+android.support.design.widget.FloatingActionButton
+-------------------------
+
+Snackbar
+
+
+-------------------------
+https://www.coursera.org/learn/desarrollo-de-aplicaciones/lecture/4xNaf/refresh-indicator
+
+
+ 
+
+
+
+	
+	
+
+
+
+
+
